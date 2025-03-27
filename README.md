@@ -14,8 +14,7 @@ A quick Python tool for importing your transcript from the SAP system into [myde
 
 - Currently only supports Hebrew transcripts.
 - A dedicated "קיץ פטורים" semester is created for all exempted/credited courses.
-- Binary courses (e.g. "עובר") are handled automatically.
-- Feel free to improve, fork, or open issues!
+- Binary courses are handled automatically.
 
 ---
 
