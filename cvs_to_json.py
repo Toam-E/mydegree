@@ -43,7 +43,7 @@ def cvs_to_json(cvs_path, json_path):
     for _, row in df.iterrows():
         num = int(row["num"])
         course_name = row["name"]
-        points = int(row["points"])
+        points = float(row["points"])
         year = row["year"]
         semester = row["semester"]
         is_binary = row["is_binary"]

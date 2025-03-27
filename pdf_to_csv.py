@@ -108,8 +108,9 @@ def extract_courses_from_pdf(pdf_path, csv_output_path):
         text = "\n".join([page.extract_text() for page in pdf.pages if page.extract_text()])
 
     parsed_courses = []
-
-    for line in text.split("\n"):
+    lines = text.splitlines()
+    if not lines: return None
+    for line in lines:
         parsed = parse_line_by_parts(line)
         if parsed:
             parsed_courses.append(parsed)
@@ -120,4 +121,3 @@ def extract_courses_from_pdf(pdf_path, csv_output_path):
     print(f"Saved to: {csv_output_path}")
 
 
-extract_courses_from_pdf("תדפיס1.pdf", "courses.csv")
