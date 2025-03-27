@@ -1,0 +1,566 @@
+[
+  {
+    "name": "קיץ פטורים",
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "השלמות מתמטיקה",
+        "number": 1030015,
+        "points": 0,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "השלמות פיסיקה 1-סווג חלק א'",
+        "number": 1130013,
+        "points": 0,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "השלמות פיסיקה 2-סווג חלק ב'",
+        "number": 1130014,
+        "points": 0,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "השלמות כימיה",
+        "number": 1230015,
+        "points": 0,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "פעילות חברתית 1",
+        "number": 3200101,
+        "points": 1,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "אנגלית טכנית-מתקדמים ב'",
+        "number": 3240033,
+        "points": 3,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "עברית 3",
+        "number": 3240053,
+        "points": 0,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      }
+    ]
+  },
+  {
+    "name": 1,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "בטיחות במעבדות חשמל",
+        "number": 440102,
+        "points": 0,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "מבט-על להנדסת חשמל ומחשבים",
+        "number": 450002,
+        "points": 1,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "אלגברה 1/מורחב",
+        "number": 1040016,
+        "points": 5,
+        "grade": 88,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חשבון אינפיניטסימלי 1מ'",
+        "number": 1040031,
+        "points": 5,
+        "grade": 63,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "פיסיקה 1פ'",
+        "number": 1140074,
+        "points": 5,
+        "grade": 68,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מבוא למדעי המחשב ח'",
+        "number": 2340117,
+        "points": 4,
+        "grade": 94,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חינוך גופני - שחיה",
+        "number": 3940802,
+        "points": 1,
+        "grade": 98,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": 2,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "מערכות ספרתיות ומבנה המחשב",
+        "number": 440252,
+        "points": 5,
+        "grade": 81,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חשבון דיפרנציאלי ואינטגרלי 2ת'",
+        "number": 1040013,
+        "points": 5,
+        "grade": 84,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "משוואות דיפ' רגילות ואינפי 2ח'",
+        "number": 1040035,
+        "points": 5,
+        "grade": 75,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מעבדה לפיסיקה 1מ'",
+        "number": 1140020,
+        "points": 1,
+        "grade": 94,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "פיסיקה 2פ'",
+        "number": 1140076,
+        "points": 5,
+        "grade": 63,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": 3,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "תורת המעגלים החשמליים",
+        "number": 440105,
+        "points": 4,
+        "grade": 88,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מבוא למבני נתונים ואלגוריתמים",
+        "number": 440268,
+        "points": 3,
+        "grade": 83,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מבוא להסתברות ח'",
+        "number": 1040034,
+        "points": 3,
+        "grade": 86,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "פונקצ' מרוכבות והתמרות אינטגרליות",
+        "number": 1040221,
+        "points": 4,
+        "grade": 73,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מד\"ח וטורי פוריה",
+        "number": 1040223,
+        "points": 4,
+        "grade": 81,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מכניקה אנליטית",
+        "number": 1140101,
+        "points": 4,
+        "grade": 59,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": 4,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "אותות ומערכות",
+        "number": 440131,
+        "points": 5,
+        "grade": 88,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": "קיץ 2022",
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "מעבדה בהנדסת חשמל 1א",
+        "number": 440157,
+        "points": 2,
+        "grade": 98,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": 5,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "פרויקט דגל - רכב מרוץ פורמולה",
+        "number": 340052,
+        "points": 2,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "מבוא למערכות תכנה",
+        "number": 440101,
+        "points": 3,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "יסודות התקני מוליכים למחצה",
+        "number": 440127,
+        "points": 3,
+        "grade": 85,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "תכן וניתוח אלגוריתמים",
+        "number": 460002,
+        "points": 3,
+        "grade": 90,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מבנה מערכות הפעלה",
+        "number": 460209,
+        "points": 3,
+        "grade": 81,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מבנה מחשבים",
+        "number": 460267,
+        "points": 3,
+        "grade": 91,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חינוך גופני - תנועה ומחול",
+        "number": 3940820,
+        "points": 1,
+        "grade": 96,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": 6,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "מעגלים אלקטרוניים",
+        "number": 440137,
+        "points": 5,
+        "grade": 83,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "אותות אקראיים",
+        "number": 440202,
+        "points": 3,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "מערכות לומדות",
+        "number": 460195,
+        "points": 3,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      },
+      {
+        "existsInDB": false,
+        "name": "מעבדה במערכות הפעלה",
+        "number": 460210,
+        "points": 1,
+        "grade": 99,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "תרגום ואופטימיזציה דינמיים של קוד בינארי",
+        "number": 460275,
+        "points": 3,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מבוא לארכיאולוגיה במאה ה-12",
+        "number": 3250006,
+        "points": 2,
+        "grade": 94,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חינוך גופני - אתלטיקה קלה",
+        "number": 3940805,
+        "points": 1,
+        "grade": 97,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": "קיץ 2023",
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "אלגברה מודרנית ח",
+        "number": 1040134,
+        "points": 2,
+        "grade": -1,
+        "type": 0,
+        "binary": true
+      }
+    ]
+  },
+  {
+    "name": 7,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "מתמטיקה דיסקרטית ח'",
+        "number": 440114,
+        "points": 3,
+        "grade": 93,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מערכות בקרה 1",
+        "number": 440191,
+        "points": 4,
+        "grade": 91,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "רשתות מחשבים ואינטרנט 1",
+        "number": 440334,
+        "points": 3,
+        "grade": 88,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "אלגוריתמים ויישומים בראייה ממוחשבת",
+        "number": 460746,
+        "points": 3,
+        "grade": 86,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "מודיעין ואתיקה",
+        "number": 3250007,
+        "points": 2,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חינוך גופני-מיועד לסטודנטים חדשים",
+        "number": 3940808,
+        "points": 1,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": 8,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "מעבדה באבטחת סייבר חומרה ותוכנה",
+        "number": 450112,
+        "points": 1,
+        "grade": 98,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "רובוטים ניידים",
+        "number": 460213,
+        "points": 3,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "פרויקט ברובוטים ניידים",
+        "number": 460214,
+        "points": 1,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חישוב מקבילי מואץ",
+        "number": 460279,
+        "points": 3,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "הסתגלות למצבי לחץ",
+        "number": 3240445,
+        "points": 2,
+        "grade": 90,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חינוך גופני - הגנה עצמית",
+        "number": 3940806,
+        "points": 1,
+        "grade": 98,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  },
+  {
+    "name": 9,
+    "courses": [
+      {
+        "existsInDB": false,
+        "name": "יפנית למתחילים",
+        "number": 3240602,
+        "points": 2,
+        "grade": 98,
+        "type": 0,
+        "binary": false
+      },
+      {
+        "existsInDB": false,
+        "name": "חינוך גופני-מיועד לסטודנטים חדשים",
+        "number": 3940808,
+        "points": 1,
+        "grade": 100,
+        "type": 0,
+        "binary": false
+      }
+    ]
+  }
+]

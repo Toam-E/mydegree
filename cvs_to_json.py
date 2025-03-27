@@ -34,18 +34,24 @@ def cvs_to_json(cvs_path, json_path):
 
     # Fix types and missing values
     df["points"] = pd.to_numeric(df["points"], errors="coerce").fillna(0)
-    df["binary"] = df["binary"].astype(bool)
+    df["is_binary"] = df["is_binary"].astype(bool)
     df["grade"] = pd.to_numeric(df["grade"], errors="coerce").fillna(0).astype(int)
 
     from collections import OrderedDict
     semester_dict = OrderedDict()
 
     for _, row in df.iterrows():
+        num = int(row["num"])
         course_name = row["name"]
-        semester = row["semester"]
+        points = int(row["points"])
         year = row["year"]
+        semester = row["semester"]
+        is_binary = row["is_binary"]
+        grade = row["grade"]
+        binary_grade = row["binary_grade"]
 
-        if "פטור" in course_name: semester_label = "קיץ פטורים"
+        if is_binary and "פטור ללא ניקוד" in binary_grade: semester_label = "קיץ פטורים"
+        elif is_binary and "פטור עם ניקוד" in binary_grade: semester_label = "קיץ פטורים"
         else: semester_label = f"{semester} {year}"
 
         if semester_label not in semester_dict:
@@ -58,11 +64,11 @@ def cvs_to_json(cvs_path, json_path):
         course = {
             "existsInDB": False,
             "name": course_name,
-            "number": int(row["num"]),
-            "points": float(row["points"]),
-            "grade": 0 if row["binary"] and str(row.get("binary_grade", "")).strip() == "עובר" else int(row["grade"]),
+            "number": num,
+            "points": points,
+            "grade": grade,
             "type": 0,
-            "binary": bool(row["binary"])
+            "binary": is_binary
         }
         semester_dict[semester_label]["courses"].append(course)
 
