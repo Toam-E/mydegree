@@ -2,6 +2,13 @@
 
 A quick Python tool for importing your transcript from the SAP system into [mydegree.co.il](https://www.mydegree.co.il/) easily.
 
+## 💾 Installation
+
+Make sure you have Python 3.7+ installed, then run:
+
+```bash
+pip install pandas pdfplumber
+
 ## 📦 How to use
 
 1. Export your transcript as PDF from the SAP system.
